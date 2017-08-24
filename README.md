@@ -1,3 +1,3 @@
 DGM1600
 
-Yaay! This class will be so great!
+Monty python and the Holy Grail is a funny movie, but my favorite movie is Spider-man Homecoming
