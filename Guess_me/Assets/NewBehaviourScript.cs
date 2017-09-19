@@ -58,22 +58,23 @@ public class NewBehaviourScript : MonoBehaviour {
 			counter--;
 			print ("Fun stuff");
 			textBox.text = "Fun stuff.";
-			print ("Other stuff.");
-			textBox.text = "Other stuff.";
 			print ("Is the number higher or lower than" +guess);
 			textBox.text = "Is the number higher or lower than " + guess;
 		}
-		if (Input.GetKeyDown (KeyCode.DownArrow)) {
-			print ("Fun stuff");
-			textBox.text = "Fun stuff.";
+		else if (Input.GetKeyDown (KeyCode.DownArrow)) {
+			max = guess;
+			guess = (max + min) / 2;
+			counter--;
 			print ("Cool");
 			textBox.text = "Cool.";
+			print ("Is the number higher or lower than" +guess);
+			textBox.text = "Is the number higher or lower than " + guess;
 		}
 		if (Input.GetKeyDown (KeyCode.Return)) {
 			print ("Awesome");
 			textBox.text = "Awesome.";
-			print ("Found it");
-			textBox.text = "Found it.";
+			print ("Found it! Computer Wins!");
+			textBox.text = "Found it. Computer Wins!";
 		}
 	}
 	
